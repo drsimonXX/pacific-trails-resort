@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Pacific Trails Resort :: Reservations</title>
+    <link rel="stylesheet" href="pacific.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+       
+</head>
+
+<body>
+    <div id="wrapper">
+<h1>Pacific Trails Resort</h1>
+<nav>
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="yurts.html">Yurts</a></li>
+    <li><a href="activities.html">Activities</a></li>
+    <li><a href="reservations.html">Reservations</a></li>
+    </ul>
+    </nav>
+<div id="content">
+    <h2>Reservations at Pacific Trails</h2>
+    <h3>Contact Us Today!</h3>
+    
+    <p>Required fields are marked with an asterisk *</p>
+    
+<form method="post" action="http://webdevbasics.net/scripts/pacific.php">
+<label for="myFName">*First Name</label>
+<input type="text" name="myFName" id="myFName" required="required"><br>
+<label for="myLName">*Last Name</label>
+<input type="text" name="myLName" id="myLName" required="required"><br>
+<label for="myEmail">*E-mail</label>
+<input type="email" name="myEmail" id="myEmail" size="40" required="required"><br>
+<label for="mobile">Phone Number:</label>
+<input type="tel" name="myPhone" id="myPhone" maxlength="12"><br>
+<label for="myDate">Arrival Date:</label>
+<input type="date" name="myDate" id="myDate"><br>
+<label for="Nights">Nights:</label>
+<input type="number" name="Nights" id="Nights" min="1" max="14"><br>
+<label for="mycomments">*Comments:</label>
+<textarea name="mycomments" id="mycomments" rows="2" cols="32" required="required"></textarea><br>
+
+    <input id="mySubmit" type="submit" value="Submit">
+
+
+
+
+</form>
+    <br>
+
+    
+
+
+<div id="contact">
+    <span class="resort">Pacific Trails Resort</span><br>
+    12010 Pacific Trails Road<br>
+    Zephyr, CA 95555<br><br>
+    888-555-5555<br><br>
+</div>
+</div>
+<div id="footer">
+    Copyright &copy; 2014 Pacific Trails Resort<br>
+    <a href="mailto:danielle@pacifictrails.com">danielle@pacifictrails.com</a>
+</div>
+
+    
+</body>
+</html>
